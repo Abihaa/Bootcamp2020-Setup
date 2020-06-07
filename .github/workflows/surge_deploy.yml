@@ -28,4 +28,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ http://project_bootcamp2020.surge.sh --token ${{secret.SURGE_TOKEN}}
+      run: surge ./ http://project_bootcamp2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
